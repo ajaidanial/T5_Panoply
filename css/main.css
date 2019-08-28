@@ -1633,6 +1633,6 @@ footer .footer-nav li a:hover {
 }
 
 .logo > a > img {
-  width: 161px;
-  height: 40px;
+  width: 300px;
+  /* height: 40px; */
 }
