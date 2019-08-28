@@ -1645,3 +1645,10 @@ footer .footer-nav li a:hover {
 .top-image > .head {
   padding: 30px;
 }
+
+@media screen and (max-width: 500px) {
+  .logo > a > img {
+    width: 250px;
+    /* height: 40px; */
+  }
+}
