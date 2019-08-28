@@ -1636,3 +1636,12 @@ footer .footer-nav li a:hover {
   width: 300px;
   /* height: 40px; */
 }
+
+.brand-image {
+  width: 100%;
+  max-width: 220px;
+}
+
+.top-image > .head {
+  padding: 30px;
+}
