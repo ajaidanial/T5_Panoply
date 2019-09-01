@@ -750,7 +750,7 @@ td, th {
 }
 
 .primary-btn.banner-btn {
-  color: #fff;
+  color: #000;
   margin-top: 60px;
 }
 
@@ -922,7 +922,7 @@ td, th {
 
 .default-header nav .main-menu a {
   display: inline-block;
-  color: rgba(255, 255, 255, 0.5);
+  color: #000;
   margin: 0 20px;
   text-transform: uppercase;
   font-size: 12px;
@@ -941,7 +941,7 @@ td, th {
 .default-header nav .mobile-btn {
   display: none;
   font-size: 36px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #000;
 }
 
 @media (max-width: 767px) {
@@ -1072,7 +1072,7 @@ td, th {
   margin: 0 5px;
   padding: 0 5px;
   display: inline-block;
-  color: rgba(255, 255, 255, 0.5);
+  color: #000;
 }
 
 .header-social a:hover {
@@ -1100,9 +1100,9 @@ td, th {
 }
 
 .banner-area .overlay-bg {
-  background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.45) 0%, rgba(91, 97, 207, 0.2) 100%);
-  background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.45) 0%, rgba(91, 97, 207, 0.2) 100%);
-  background: linear-gradient(to right, rgba(60, 64, 143, 0.45) 0%, rgba(91, 97, 207, 0.2) 100%);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.2) 0%, rgb(255, 255, 255, 0.4) 100%);
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.2) 0%, rgb(255, 255, 255, 0.4) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgb(255, 255, 255, 0.4) 100%);
 }
 
 .signle-service {
@@ -1651,4 +1651,8 @@ footer .footer-nav li a:hover {
     width: 250px;
     /* height: 40px; */
   }
+}
+
+.text-black {
+  color: #000 !important;
 }
