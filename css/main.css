@@ -955,6 +955,7 @@ td, th {
     position: absolute;
     top: 40px;
     right: 0;
+    color: #000;
     background: #fff;
     padding: 30px 20px;
   }
